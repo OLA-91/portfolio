@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>One Million Lines</title>
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+    <script>
+      $(document).ready(function(){
+          /* Get iframe src attribute value i.e. YouTube video url
+          and store it in a variable */
+          var url = $("#cartoonVideo").attr('src');
+          
+          /* Assign empty url value to the iframe src attribute when
+          modal hide, which stop the video playing */
+          $("#myModal").on('hide.bs.modal', function(){
+              $("#cartoonVideo").attr('src', '');
+          });
+          
+          /* Assign the initially stored url back to the iframe src
+          attribute when modal is displayed again */
+          $("#myModal").on('show.bs.modal', function(){
+              $("#cartoonVideo").attr('src', url);
+          });
+      });
+      </script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <img src="../Squelette/images/top-logo.png" alt="">
+          
+          <div   class="collapse navbar-collapse d-flex id="navbarTogglerDemo02>
+            
+            <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li style="float:left; margin-left: 700px;" class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">WHO WE ARE</a>
+              </li>
+              <li style="float:left; margin-left: 100px;" class="nav-item">
+                <a class="nav-link text-light" href="#">GET INVOLVED</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    
+    
+
+    <div id="home">
+      <div class="px-4 py-5  text-center">
+        <h1 class="display-5 fw-bold text-light">Our goal is to inspire</h1>
+        <h1 class="display-5 fw-bold text-light">Tallahasse to write 1,000,000 </h1>
+        <h1 class="display-5 fw-bold text-light">Lines of code_</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-light">
+            All over the country people are taking the<strong>hour of code</strong>challenge issued by<strong>CODE.org.</strong>million of lines of code are being written.In the capital of Florida,Tallahassee,the community is talking the challenge and our goal is to write 1,000,000 lines of code
+          </p>
+
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <div class="m-4">
+                <!-- Button HTML (to Trigger Modal) -->
+                <a href="#myModal" class="btn btn-danger btn-lg" data-toggle="modal"> Learn more >> </a>
+                
+                <!-- Modal HTML -->
+                <div id="myModal" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">YouTube Video</h5>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                <iframe id="cartoonVideo" class="embed-responsive-item" width="560" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4" allowfullscreen></iframe>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+              </button>
+            
+
+
+       </div><br>
+
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <img class="d-block mx-auto mb-4" src="images/code.png" alt="" width="100" height="100">
+            </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="container">
+      <img class="d-block mx-auto mb-4" src="images/academy-brand-med.png" alt="" width="200" height="200">
+    </div>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <p style="border-bottom:solid 1px red ;padding-bottom: 10px; border-radius: 3px;" class="lead mb-4 text-danger text-center">WHO WE ARE</p>
+
+      
+     
+
+    </div>
+    <p id="red_line" class="col-lg-6  mx-auto" style="width:auto;"></p>
+    
+
+    <h1 style="text-align:center ;width:auto; margin: 0 10%; " class=" lead mb-4 text-dark"> we are MASSIVE Academy. We aim o improve eduction through both methode - effective project-based learning - and material - by teaching skills that are applicable to improving your ife today </h1>
+   
+
+    </p>
+  </div>
+  <br>
+    <br>
+
+<div class="get">
+ <div class="d-grid gap-2 d-sm-flex justify-content-sm-center container-fluid ">
+      <p class="lead mb-4 text-danger mt-4 text-center">GET INVOLVED</p></div>
+
+    <div style="width:90%;margin: 0 20px;" class="row g-4 py-5 row-cols-1 row-cols-lg-3 ">
+      <div class="feature col text-center">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
+        <br><br>
+        <h3 class="fs-2 text-danger ">STUDENTS</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <br>
+        <p><a class="btn btn-secondary text-danger bg-light"href="#"> Start learning >> </a></p>
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col text-center">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+          <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+        </svg>
+        <br>
+        <br>
+        <h3 class="fs-2 text-danger">EDUCATURES</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link d-inline-flex align-items-center">
+          <p><a class="btn btn-secondary text-danger bg-light"href="#"> join The Initiative >> </a></p>
+          <svg  class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col text-center">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+ <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-cash" viewBox="0 0 16 16">
+  <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+  <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z"/>
+</svg>           <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+          </svg>
+        </div>
+        <h3 class="fs-2 text-danger">SPONSORS</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link d-inline-flex align-items-center">
+          <p><a class="btn btn-secondary text-danger bg-light"href="#"> Give support >> </a></p>
+
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="" style="background-color: #dd1313; height: 200px;">
+    <br>
+    <br>
+    <br><br>
+    <br>
+   <div class="container">
+    <img class="d-block mb-1 mg d-flex justify-content-start" src="images/one-million-bottom-brand.png" alt="">
+    <!-- Copyright -->
+  
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+
+
+
+
+</footer>
+    <div id="who">
+      <!-- Votre code ici -->
+    </div><!-- /#who -->
+
+    <div id="get-involved">
+      <!-- Votre code ici -->
+    </div><!-- /#get-involved -->
+
+    <footer>
+      <!-- Votre code ici -->
+    </footer>
+
+    <div id="back-to-top">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+      <!-- Votre code ici -->
+    </div><!-- /#back-to-top -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+  </body>
+</html>
